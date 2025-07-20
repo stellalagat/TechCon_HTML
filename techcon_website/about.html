@@ -1,105 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About TechCon 2024</title>
-    <!-- Optional: Link to a CSS file for styling -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header, nav, main, footer {
+            padding: 1em;
+            background-color: #fff;
+            margin-bottom: 1em;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #e0e0e0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #004080;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2em;
+            background-color: #ffffff;
+        }
+
+        article {
+            margin-bottom: 2em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 1em;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #004080;
+            color: white;
+            padding: 1em 0;
+        }
+    </style>
 </head>
 <body>
 
     <header>
         <h1>About TechCon 2024</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
     <main>
-        <article id="history">
+        <article>
             <h2>Our History</h2>
-            <p>
-                TechCon began in 2010 as a small gathering of local tech enthusiasts
-                in a university auditorium. Its initial aim was to foster knowledge sharing
-                and collaboration within the burgeoning tech community. Over the years,
-                it rapidly grew in popularity, attracting speakers and attendees from
-                across the nation.
-            </p>
-            <p>
-                By 2015, TechCon had become a flagship event, moving to larger venues
-                and expanding its scope to include international speakers and a wider
-                array of topics, from software development to emerging hardware innovations.
-                Each year, we strive to build upon our legacy of excellence and community.
-            </p>
-            <div class="history-images">
-                <img src="https://placehold.co/400x250/aabbcc/ffffff?text=TechCon+2010" alt="Early TechCon conference in 2010 with a small audience." width="400" height="250">
-                <img src="https://placehold.co/400x250/ccbbaa/ffffff?text=TechCon+2015" alt="Larger TechCon conference in 2015 with many attendees and a stage." width="400" height="250">
-            </div>
+            <p>TechCon began in 2010 as a small gathering of developers and tech entrepreneurs. Over the years, it has grown into one of the most respected technology conferences in the world, drawing thousands of attendees from across the globe. With a focus on innovation, collaboration, and learning, TechCon has been a launchpad for groundbreaking ideas and movements in the tech industry.</p>
+            <img src="images/techcon-history.jpg" alt="Historic photo from the first TechCon event in 2010">
         </article>
 
-        <article id="mission">
+        <article>
             <h2>Our Mission</h2>
-            <p>
-                At TechCon, our mission is to empower the global tech community by providing
-                an unparalleled platform for learning, networking, and innovation. We aim to:
-            </p>
-            <ul>
-                <li><strong>Educate:</strong> Deliver cutting-edge content and insights from industry leaders.</li>
-                <li><strong>Connect:</strong> Facilitate meaningful connections among professionals, students, and enthusiasts.</li>
-                <li><strong>Inspire:</strong> Spark new ideas and encourage breakthroughs in technology.</li>
-                <li><strong>Innovate:</strong> Showcase the latest advancements and foster future technological growth.</li>
-            </ul>
-            <div class="mission-images">
-                <img src="https://placehold.co/150x150/99cc99/ffffff?text=Innovation+Icon" alt="Abstract icon representing innovation and growth." width="150" height="150">
-                <img src="https://placehold.co/150x150/9999cc/ffffff?text=Networking+Icon" alt="Icon representing networking and connections." width="150" height="150">
-            </div>
+            <p>At TechCon, our mission is to inspire and connect the global tech community through transformative experiences, thought-provoking discussions, and opportunities to explore the latest in technology. We believe in the power of technology to change the world and aim to support diversity, innovation, and forward-thinking ideas that shape our digital future.</p>
+            <img src="images/mission-icon.png" alt="Icon representing innovation and technology goals">
         </article>
 
-        <article id="past-speakers">
+        <article>
             <h2>Notable Past Speakers</h2>
-            <p>
-                TechCon has been graced by some of the brightest minds in technology. Here are a few who have left a lasting impact:
-            </p>
+            <p>Over the years, TechCon has featured many influential voices in tech. Here are a few of our most memorable speakers:</p>
 
-            <div class="speaker-profile">
-                <img src="https://placehold.co/150x150/ffddcc/000000?text=Dr.+Ava+Chen" alt="Portrait of Dr. Ava Chen" width="150" height="150">
-                <h3>Dr. Ava Chen</h3>
-                <p>
-                    Dr. Chen is a pioneer in the field of Artificial Intelligence, renowned for her work
-                    on ethical AI development and machine learning algorithms. Her keynote at TechCon 2018
-                    on "AI for Good" was highly influential.
-                </p>
-            </div>
+            <h3>Dr. Jane Liu</h3>
+            <p>AI researcher and pioneer in machine learning, Dr. Liu's keynote on ethical AI sparked ongoing industry discussions.</p>
+            <img src="images/jane-liu.jpg" alt="Photo of Dr. Jane Liu, AI researcher and past TechCon speaker">
 
-            <div class="speaker-profile">
-                <img src="https://placehold.co/150x150/ccffdd/000000?text=Mr.+Ben+Carter" alt="Portrait of Mr. Ben Carter" width="150" height="150">
-                <h3>Mr. Ben Carter</h3>
-                <p>
-                    A cybersecurity expert and author, Mr. Carter shared invaluable insights on
-                    data privacy and advanced threat detection at TechCon 2020. His practical
-                    advice continues to shape industry best practices.
-                </p>
-            </div>
+            <h3>Alex Johnson</h3>
+            <p>Founder of CloudNet, Alex shared insights on cloud infrastructure that shaped how startups scale their platforms today.</p>
+            <img src="images/alex-johnson.jpg" alt="Photo of Alex Johnson, founder of CloudNet">
 
-            <div class="speaker-profile">
-                <img src="https://placehold.co/150x150/ddccff/000000?text=Ms.+Chloe+Davis" alt="Portrait of Ms. Chloe Davis" width="150" height="150">
-                <h3>Ms. Chloe Davis</h3>
-                <p>
-                    Ms. Davis, a leading voice in sustainable technology, presented on "Green Computing"
-                    at TechCon 2022, advocating for environmentally responsible tech solutions and practices.
-                </p>
-            </div>
+            <h3>Maria Gomez</h3>
+            <p>Cybersecurity expert and author, Maria’s panel discussions helped influence tech security protocols now widely adopted.</p>
+            <img src="images/maria-gomez.jpg" alt="Photo of Maria Gomez, cybersecurity expert and past TechCon speaker">
         </article>
     </main>
 
     <footer>
-        <p>copyright &copy; 2024 TechCon. All rights reserved.</p>
+        <p>&copy; 2024 TechCon. All rights reserved. <br>Copyright.</p>
     </footer>
 
 </body>
